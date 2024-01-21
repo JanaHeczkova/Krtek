@@ -9,6 +9,7 @@ namespace Whack_a_Mole
     internal class Krtek
     {
         public int nahodneCislo;
+
         public void ObjevSe()
         {
         Random generatorNahodnychCisel = new Random();
@@ -29,5 +30,6 @@ namespace Whack_a_Mole
                 Console.Beep();
             }
         }
+
     }
 }
